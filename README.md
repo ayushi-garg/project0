@@ -5,7 +5,7 @@
 
 3. Later you can enhance this grid to display check box against each record ,to give user a selection option to select a particular record.
 
-4. Write a program to print all the HTML elements( like <p> ,<html>,<body>) used of web page. You can create a single web page and using java script ,you should print these elements .
+4. Write a program to print all the HTML elements used of web page. You can create a single web page and using java script ,you should print these elements .
 
 5. Write a program to display a eclipse image and print the position of cursor. Position of cursor is shown at the upper left corner with tag element.
 

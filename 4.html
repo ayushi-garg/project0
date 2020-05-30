@@ -1,0 +1,27 @@
+
+
+<HTML>
+<!-- Using the all collection -->
+	<HEAD>
+		<TITLE>MY WEB PAGE 4!</TITLE>
+		<script type = "text/javascript">
+			var element ="";
+			function runner()
+			{
+				for(var loop =0 ; loop<document.all.length ;++loop)
+				
+					element += "<BR>" + document.all[loop].tagName;
+					pText.innerHTML += element; 
+				
+			}
+
+	
+		</script>
+		
+	</HEAD>
+	<BODY onload = "runner()">
+	<h1 id = "pText" > THIS PAGE WILL PRINT HTML TAG USED IN THIS WEB PAGE</h1>
+	
+		
+	</BODY>
+</HTML>

@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>My 5th Webpage</title>
+	</head>
+	<body>
+		<p id="point"></p>
+		<img src="ellipse.png" width = "30%" height="30%" alt="ellipse image" onclick="showCoords(event)">
+		
+
+		<script>
+		
+		function showCoords(event) {
+		  var x = event.clientX;
+		  var y = event.clientY;
+		  var coords = "BODY ( " + x + " , "+ y+" )";
+		  document.getElementById("point").innerHTML = coords;
+		}
+		</script>
+
+	</body>
+	
+</html>
